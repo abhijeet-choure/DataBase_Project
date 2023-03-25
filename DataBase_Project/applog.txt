@@ -1,0 +1,94 @@
+INFO    2017-01-30 20:32:11,695 [main] com.qedge.dbtest.Sqldbtest  - Database Connection Successful
+INFO    2017-01-30 20:34:51,985 [main] com.qedge.dbtest.Sqldbtest  - Database Connection Successful
+ERROR   2017-01-30 20:34:52,001 [main] com.qedge.dbtest.Sqldbtest  - Some Error
+FATAL   2017-01-30 20:34:52,001 [main] com.qedge.dbtest.Sqldbtest  - Critical Error
+DEBUG   2017-01-30 20:34:52,001 [main] com.qedge.dbtest.Sqldbtest  - qedge
+DEBUG   2017-01-30 20:39:21,817 [Forwarding newSession on session null to remote] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: default
+DEBUG   2017-01-30 20:39:21,830 [Forwarding newSession on session null to remote] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+DEBUG   2017-01-30 20:39:21,832 [Forwarding newSession on session null to remote] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG   2017-01-30 20:39:21,849 [Forwarding newSession on session null to remote] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection leased: [id: 0][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG   2017-01-30 20:39:21,851 [Forwarding newSession on session null to remote] org.apache.http.impl.execchain.MainClientExec  - Opening connection {}->http://127.0.0.1:7055
+DEBUG   2017-01-30 20:39:21,863 [Forwarding newSession on session null to remote] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connecting to /127.0.0.1:7055
+DEBUG   2017-01-30 20:39:21,868 [Forwarding newSession on session null to remote] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connection established 127.0.0.1:50993<->127.0.0.1:7055
+DEBUG   2017-01-30 20:39:21,868 [Forwarding newSession on session null to remote] org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-0: set socket timeout to 10800000
+DEBUG   2017-01-30 20:39:21,869 [Forwarding newSession on session null to remote] org.apache.http.impl.execchain.MainClientExec  - Executing request POST /hub/session HTTP/1.1
+DEBUG   2017-01-30 20:39:21,869 [Forwarding newSession on session null to remote] org.apache.http.impl.execchain.MainClientExec  - Target auth state: UNCHALLENGED
+DEBUG   2017-01-30 20:39:21,870 [Forwarding newSession on session null to remote] org.apache.http.impl.execchain.MainClientExec  - Proxy auth state: UNCHALLENGED
+DEBUG   2017-01-30 20:39:21,872 [Forwarding newSession on session null to remote] org.apache.http.headers  - http-outgoing-0 >> POST /hub/session HTTP/1.1
+DEBUG   2017-01-30 20:39:21,872 [Forwarding newSession on session null to remote] org.apache.http.headers  - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+DEBUG   2017-01-30 20:39:21,872 [Forwarding newSession on session null to remote] org.apache.http.headers  - http-outgoing-0 >> Content-Length: 105
+DEBUG   2017-01-30 20:39:21,873 [Forwarding newSession on session null to remote] org.apache.http.headers  - http-outgoing-0 >> Host: 127.0.0.1:7055
+DEBUG   2017-01-30 20:39:21,873 [Forwarding newSession on session null to remote] org.apache.http.headers  - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG   2017-01-30 20:39:21,873 [Forwarding newSession on session null to remote] org.apache.http.headers  - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_79)
+DEBUG   2017-01-30 20:39:21,873 [Forwarding newSession on session null to remote] org.apache.http.headers  - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG   2017-01-30 20:39:21,874 [Forwarding newSession on session null to remote] org.apache.http.wire  - http-outgoing-0 >> "POST /hub/session HTTP/1.1[\r][\n]"
+DEBUG   2017-01-30 20:39:21,874 [Forwarding newSession on session null to remote] org.apache.http.wire  - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG   2017-01-30 20:39:21,874 [Forwarding newSession on session null to remote] org.apache.http.wire  - http-outgoing-0 >> "Content-Length: 105[\r][\n]"
+DEBUG   2017-01-30 20:39:21,874 [Forwarding newSession on session null to remote] org.apache.http.wire  - http-outgoing-0 >> "Host: 127.0.0.1:7055[\r][\n]"
+DEBUG   2017-01-30 20:39:21,874 [Forwarding newSession on session null to remote] org.apache.http.wire  - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG   2017-01-30 20:39:21,875 [Forwarding newSession on session null to remote] org.apache.http.wire  - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_79)[\r][\n]"
+DEBUG   2017-01-30 20:39:21,875 [Forwarding newSession on session null to remote] org.apache.http.wire  - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG   2017-01-30 20:39:21,875 [Forwarding newSession on session null to remote] org.apache.http.wire  - http-outgoing-0 >> "[\r][\n]"
+DEBUG   2017-01-30 20:39:21,875 [Forwarding newSession on session null to remote] org.apache.http.wire  - http-outgoing-0 >> "{"desiredCapabilities":{"platform":"ANY","browserName":"firefox","version":""},"requiredCapabilities":{}}"
+DEBUG   2017-01-30 20:39:21,971 [Forwarding newSession on session null to remote] org.apache.http.wire  - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG   2017-01-30 20:39:21,971 [Forwarding newSession on session null to remote] org.apache.http.wire  - http-outgoing-0 << "content-type: application/json; charset=UTF-8[\r][\n]"
+DEBUG   2017-01-30 20:39:21,971 [Forwarding newSession on session null to remote] org.apache.http.wire  - http-outgoing-0 << "connection: close[\r][\n]"
+DEBUG   2017-01-30 20:39:21,971 [Forwarding newSession on session null to remote] org.apache.http.wire  - http-outgoing-0 << "content-length: 423[\r][\n]"
+DEBUG   2017-01-30 20:39:21,971 [Forwarding newSession on session null to remote] org.apache.http.wire  - http-outgoing-0 << "server: httpd.js[\r][\n]"
+DEBUG   2017-01-30 20:39:21,971 [Forwarding newSession on session null to remote] org.apache.http.wire  - http-outgoing-0 << "date: Mon, 30 Jan 2017 15:09:21 GMT[\r][\n]"
+DEBUG   2017-01-30 20:39:21,971 [Forwarding newSession on session null to remote] org.apache.http.wire  - http-outgoing-0 << "[\r][\n]"
+DEBUG   2017-01-30 20:39:21,976 [Forwarding newSession on session null to remote] org.apache.http.headers  - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG   2017-01-30 20:39:21,976 [Forwarding newSession on session null to remote] org.apache.http.headers  - http-outgoing-0 << content-type: application/json; charset=UTF-8
+DEBUG   2017-01-30 20:39:21,976 [Forwarding newSession on session null to remote] org.apache.http.headers  - http-outgoing-0 << connection: close
+DEBUG   2017-01-30 20:39:21,976 [Forwarding newSession on session null to remote] org.apache.http.headers  - http-outgoing-0 << content-length: 423
+DEBUG   2017-01-30 20:39:21,976 [Forwarding newSession on session null to remote] org.apache.http.headers  - http-outgoing-0 << server: httpd.js
+DEBUG   2017-01-30 20:39:21,976 [Forwarding newSession on session null to remote] org.apache.http.headers  - http-outgoing-0 << date: Mon, 30 Jan 2017 15:09:21 GMT
+DEBUG   2017-01-30 20:39:22,000 [Forwarding newSession on session null to remote] org.apache.http.wire  - http-outgoing-0 << "{"name":"newSession","sessionId":"da206cb6-a1a2-407b-9a66-c186d265e9ba","status":0,"value":{"cssSelectorsEnabled":true,"browserName":"firefox","handlesAlerts":true,"javascriptEnabled":true,"nativeEvents":false,"platform":"WINDOWS","rotatable":false,"takesScreenshot":true,"version":"47.0.1","webStorageEnabled":true,"applicationCacheEnabled":true,"databaseEnabled":true,"locationContextEnabled":true,"acceptSslCerts":true}}"
+DEBUG   2017-01-30 20:39:22,000 [Forwarding newSession on session null to remote] org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-0: Close connection
+DEBUG   2017-01-30 20:39:22,001 [Forwarding newSession on session null to remote] org.apache.http.impl.execchain.MainClientExec  - Connection discarded
+DEBUG   2017-01-30 20:39:22,001 [Forwarding newSession on session null to remote] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection released: [id: 0][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG   2017-01-30 20:39:22,005 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: default
+DEBUG   2017-01-30 20:39:22,005 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+DEBUG   2017-01-30 20:39:22,005 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG   2017-01-30 20:39:22,005 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection leased: [id: 1][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG   2017-01-30 20:39:22,005 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.impl.execchain.MainClientExec  - Opening connection {}->http://127.0.0.1:7055
+DEBUG   2017-01-30 20:39:22,005 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connecting to /127.0.0.1:7055
+DEBUG   2017-01-30 20:39:22,006 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connection established 127.0.0.1:50994<->127.0.0.1:7055
+DEBUG   2017-01-30 20:39:22,006 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-1: set socket timeout to 10800000
+DEBUG   2017-01-30 20:39:22,006 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.impl.execchain.MainClientExec  - Executing request POST /hub/session/da206cb6-a1a2-407b-9a66-c186d265e9ba/url HTTP/1.1
+DEBUG   2017-01-30 20:39:22,006 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.impl.execchain.MainClientExec  - Target auth state: UNCHALLENGED
+DEBUG   2017-01-30 20:39:22,006 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.impl.execchain.MainClientExec  - Proxy auth state: UNCHALLENGED
+DEBUG   2017-01-30 20:39:22,006 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.headers  - http-outgoing-1 >> POST /hub/session/da206cb6-a1a2-407b-9a66-c186d265e9ba/url HTTP/1.1
+DEBUG   2017-01-30 20:39:22,006 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.headers  - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+DEBUG   2017-01-30 20:39:22,006 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.headers  - http-outgoing-1 >> Content-Length: 40
+DEBUG   2017-01-30 20:39:22,006 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.headers  - http-outgoing-1 >> Host: 127.0.0.1:7055
+DEBUG   2017-01-30 20:39:22,006 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.headers  - http-outgoing-1 >> Connection: Keep-Alive
+DEBUG   2017-01-30 20:39:22,006 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.headers  - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_79)
+DEBUG   2017-01-30 20:39:22,006 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.headers  - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+DEBUG   2017-01-30 20:39:22,007 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.wire  - http-outgoing-1 >> "POST /hub/session/da206cb6-a1a2-407b-9a66-c186d265e9ba/url HTTP/1.1[\r][\n]"
+DEBUG   2017-01-30 20:39:22,007 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.wire  - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG   2017-01-30 20:39:22,007 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.wire  - http-outgoing-1 >> "Content-Length: 40[\r][\n]"
+DEBUG   2017-01-30 20:39:22,007 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.wire  - http-outgoing-1 >> "Host: 127.0.0.1:7055[\r][\n]"
+DEBUG   2017-01-30 20:39:22,007 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.wire  - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG   2017-01-30 20:39:22,007 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.wire  - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_79)[\r][\n]"
+DEBUG   2017-01-30 20:39:22,008 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.wire  - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG   2017-01-30 20:39:22,008 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.wire  - http-outgoing-1 >> "[\r][\n]"
+DEBUG   2017-01-30 20:39:22,008 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.wire  - http-outgoing-1 >> "{"url":"http://orangehrm.qedgetech.com"}"
+DEBUG   2017-01-30 20:39:25,196 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.wire  - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG   2017-01-30 20:39:25,196 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.wire  - http-outgoing-1 << "content-type: application/json; charset=UTF-8[\r][\n]"
+DEBUG   2017-01-30 20:39:25,196 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.wire  - http-outgoing-1 << "connection: close[\r][\n]"
+DEBUG   2017-01-30 20:39:25,196 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.wire  - http-outgoing-1 << "content-length: 87[\r][\n]"
+DEBUG   2017-01-30 20:39:25,196 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.wire  - http-outgoing-1 << "server: httpd.js[\r][\n]"
+DEBUG   2017-01-30 20:39:25,197 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.wire  - http-outgoing-1 << "date: Mon, 30 Jan 2017 15:09:25 GMT[\r][\n]"
+DEBUG   2017-01-30 20:39:25,197 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.wire  - http-outgoing-1 << "[\r][\n]"
+DEBUG   2017-01-30 20:39:25,197 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.headers  - http-outgoing-1 << HTTP/1.1 200 OK
+DEBUG   2017-01-30 20:39:25,197 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.headers  - http-outgoing-1 << content-type: application/json; charset=UTF-8
+DEBUG   2017-01-30 20:39:25,197 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.headers  - http-outgoing-1 << connection: close
+DEBUG   2017-01-30 20:39:25,197 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.headers  - http-outgoing-1 << content-length: 87
+DEBUG   2017-01-30 20:39:25,197 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.headers  - http-outgoing-1 << server: httpd.js
+DEBUG   2017-01-30 20:39:25,197 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.headers  - http-outgoing-1 << date: Mon, 30 Jan 2017 15:09:25 GMT
+DEBUG   2017-01-30 20:39:25,198 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.wire  - http-outgoing-1 << "{"name":"get","sessionId":"da206cb6-a1a2-407b-9a66-c186d265e9ba","status":0,"value":""}"
+DEBUG   2017-01-30 20:39:25,198 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-1: Close connection
+DEBUG   2017-01-30 20:39:25,199 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.impl.execchain.MainClientExec  - Connection discarded
+DEBUG   2017-01-30 20:39:25,199 [Forwarding get on session da206cb6-a1a2-407b-9a66-c186d265e9ba to remote] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection released: [id: 1][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+INFO    2017-01-30 20:39:25,199 [main] com.qedge.dbtest.OrangehrmLoginTest  - Application Launched...
